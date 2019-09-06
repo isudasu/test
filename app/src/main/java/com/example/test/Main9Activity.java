@@ -18,12 +18,12 @@ private Button edit;
         edit =(Button) findViewById(R.id.edit);
         edit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
-                openactivityhome();
+                openactivity();
             }
         });
     }
 
-    public void openactivityhome() {
+    public void openactivity() {
         // Intent intent = new Intent(Main9Activity.this,Main10Activity.class);
         //   startActivity(intent);
          }
